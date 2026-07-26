@@ -27,26 +27,26 @@ HUNT3R-T is built on the **Model Context Protocol (MCP)** and provides:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     HUNT3R-T MCP Server                      │
+│                     HUNT3R-T MCP Server                     │
 ├─────────────────────────────────────────────────────────────┤
-│                                                               │
+│                                                             │
 │  ┌─────────────────┐         ┌──────────────────┐           │
-│  │   Tools (7)      │         │  Resources (3)    │          │
+│  │   Tools (7)     │         │  Resources (3)   │           │
 │  ├─────────────────┤         ├──────────────────┤           │
-│  │ hunt_technique   │         │ network-topology  │          │
-│  │ temporal_rec.    │         │ siem-logs         │          │
-│  │ spin_twin        │         │ apt-profiles      │          │
-│  │ simulate_mov.    │         │ action-history     │          │
-│  │ execute_block    │         │                    │          │
-│  │ generate_chain   │         │                    │          │
-│  │ read_resource     │         │                    │          │
+│  │ hunt_technique  │         │ network-topology │           │
+│  │ temporal_rec.   │         │ siem-logs        │           │
+│  │ spin_twin       │         │ apt-profiles     │           │
+│  │ simulate_mov.   │         │ action-history   │           │
+│  │ execute_block   │         │                  │           │
+│  │ generate_chain  │         │                  │           │
+│  │ read_resource   │         │                  │           │
 │  └─────────────────┘         └──────────────────┘           │
-│                                                               │
-│  ┌─────────────────────────────────────────────────────────┐ │
-│  │            Digital Twin Simulation Engine                │ │
-│  │      (Network modeling, lateral movement prediction)     │ │
-│  └─────────────────────────────────────────────────────────┘ │
-│                                                               │
+│                                                             │
+│  ┌─────────────────────────────────────────────────────────┐│
+│  │            Digital Twin Simulation Engine               ││
+│  │      (Network modeling, lateral movement prediction)    ││
+│  └─────────────────────────────────────────────────────────┘│
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
               │              │              │
               ▼              ▼              ▼
