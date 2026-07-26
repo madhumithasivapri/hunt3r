@@ -51,8 +51,8 @@ HUNT3R-T is built on the **Model Context Protocol (MCP)** and provides:
               │              │              │
               ▼              ▼              ▼
         ┌────────┐     ┌─────────┐    ┌──────────┐
-        │  SIEM   │     │ Network │    │  Threat  │
-        │  Logs   │     │Topology │    │ Intel DB │
+        │  SIEM  │     │ Network │    │  Threat  │
+        │  Logs  │     │Topology │    │ Intel DB │
         └────────┘     └─────────┘    └──────────┘
 ```
 
